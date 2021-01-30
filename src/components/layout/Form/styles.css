@@ -1,0 +1,86 @@
+.layoutForm{
+    padding: 10px;
+
+}
+.layoutForm_group{
+    display: flex;
+    flex-direction: column;
+}
+.layoutForm_titulo{
+    color: teal;
+    font-weight: 700;
+}
+.layoutForm_group label{
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+}
+.layoutForm_group input {
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    height: 30px;
+    padding: 0 10px;
+}
+.layoutForm_radio{
+   align-items: flex-end;
+   margin: 0;
+}
+.layoutForm_error1{
+    color: #CD164B;
+    font-weight: 600;
+    padding: 3px 0px;
+    text-align: right;
+}
+.layoutForm_add{
+    background-color: rgba(85, 85, 85, 0.26);
+    padding: 20px;
+    display: inline-block;
+    width: 43.5%; 
+}
+.layoutForm_elements{
+    display: flex;
+}
+
+.layoutForm_elementsSelectMenu{
+    width: 20%;
+}
+
+.layoutForm_elementsSelect{
+    width: 95%;
+}
+
+.layoutForm_button{
+    margin: 10px 0px;
+    color: #fff;
+    background-color: #CD164B;
+}
+.layoutForm_button:hover{
+    margin: 10px 0px;
+    color: #000;
+    background-color: #fff;
+}
+
+.layoutForm_button:active{
+    margin: 10px 0px;
+    color: #CD164B;
+    background-color: #fff;
+}
+
+
+.layoutForm_group select{ 
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    height: 30px;
+    padding: 0 10px;
+    width: 100%;
+    display: block;
+    position: relative;
+    margin: 0;
+}
+.layoutForm_error{
+    color: red;
+    margin: 2px;
+}

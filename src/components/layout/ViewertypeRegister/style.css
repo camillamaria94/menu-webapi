@@ -1,0 +1,39 @@
+.layoutViwerValue{
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #c3c3c3;
+    overflow: hidden;
+    width: 230px; 
+    display: flex;
+    color: #666;
+    margin: 10px;
+    box-shadow: 0 2px 7px 0px rgba(0, 0, 0, 0.15);
+    width: 95%;   
+}
+.layoutViwerValue__footer{
+    padding: 5px;
+    margin-left: auto;
+    display: flex;
+}
+.layoutViwerValue_link{  
+    padding: 5px;
+    color: #CD164B;
+    text-decoration: none;
+    font-weight: 900;
+}
+.layoutViwerValue_link:hover{
+    padding: 5px;
+    color: #fff;
+    background-color: #CD164B;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 2px 7px 0px rgba(0, 0, 0, 0.15);
+    font-weight: 900;
+}
+.layoutViwerValue_title{
+    font-weight: 900;
+}
+.layoutViwerValue_subtitle{
+    font-size: 12px;
+    
+}

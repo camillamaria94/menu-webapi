@@ -1,0 +1,35 @@
+.register{
+    border-radius: 10px;
+    border: 1px solid #c3c3c3;
+    box-shadow: 0 2px 7px 0px rgba(0, 0, 0, 0.15);
+    width: 80%;
+   
+}
+.register_title{
+    font-size: 20px;
+    color: #29a8ab;
+    font-weight: 900;
+    padding: 10px;
+}
+.register_att{
+    font-size: 18px;
+    color: #000;
+    font-weight: 900;
+    padding: 10px;
+}
+.register_input-name {
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-color: #d4d4d4;
+  }
+.register-radio{
+    margin: 5px 15px;
+}
+.register-viwer{
+    padding: 5px 5px;
+    margin: 8px 0;
+    background-color: #d4d4d4;
+    color: #000;
+}

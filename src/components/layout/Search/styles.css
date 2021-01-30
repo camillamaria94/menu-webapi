@@ -1,0 +1,17 @@
+.Search-header{
+    background-color: transparent;
+    color: teal;
+    font-weight: 800;
+    display: flex;
+
+}
+.SearchInput{
+    display: flex;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0px 5px;
+    width: 95%;
+    margin-left: 10px;
+
+}

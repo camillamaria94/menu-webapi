@@ -1,0 +1,52 @@
+.layout-Card{
+    border-radius: 10px;
+    border: 1px solid #c3c3c3;
+    overflow: hidden;
+    width: 230px; 
+    display: inline-block;
+    background: #fff;
+    color: #FFF;
+    margin: 10px;
+    box-shadow: 0 2px 7px 0px rgba(0, 0, 0, 0.15);
+    align-items: flex-start; 
+}
+.layout-Card__date{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 800;
+    background-color: rgb(146, 146, 146);
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    display: flex;
+    text-align: center;
+}
+.layout-Card__date:hover{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 800;
+    background-color:#29a8ab;
+    color: #fff;
+    padding: 15px;
+    display: flex; 
+    text-align: center;
+}
+.layout-Card__content{
+    padding: 10px;
+    text-align: center;
+}
+.layout-Card__title{
+    color: #777;
+    font-size: 10px;
+}
+.layout-Card__text{
+    color: #000;
+    font-size: 12px;
+}
+.layout-Card__button{
+    margin: 2px;
+    color: #777;
+    font-size: 10px;
+
+}
